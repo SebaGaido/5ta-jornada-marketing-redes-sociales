@@ -44,7 +44,8 @@ h2{font-size: 2em;
 	letter-spacing: -0.04em;
 	margin-top: 18px;}
 .accordion .panel-title,h3,h4{font-size:24px;}
-
+.sponsor-container {margin-bottom: 100px;top: 300px;}
+.sponsor-box {width: 20%;height: 80px;position: relative;padding: 6px;float: left;}
 ::selection{color:#fff;background:#f800ff;text-shadow:none}::-webkit-selection{color:#fff;background:#17bed2;text-shadow:none}::-moz-selection{color:#fff;background:#17bed2;text-shadow:none}
 
 .f-left {
@@ -299,13 +300,12 @@ hr.vertical {
 
 /* empieza sponsors juntos - borrar*/
 @media (min-width: 1201px) {
-	.sponsor-min {display: block;margin-top: -260px;background-color: #000;}
 	.sponsor-max {display: none;}
 }
 
 @media (max-width:1200px) {
-	.sponsor-min {display: none;}
-	.sonsor-max {display: block;}
+	.sponsor-max {display: block;}
+	.sponsor-box {display: none;}
 }
 /* termina sponsors juntos - borrar*/
 
@@ -539,5 +539,6 @@ hr.vertical {
 		font-size: 1em;
 		padding-left: 0px;
 		text-align: center;
+		margin-bottom: 90px;
 	}
 }
