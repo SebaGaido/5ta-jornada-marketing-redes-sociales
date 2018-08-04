@@ -11,7 +11,7 @@ Index:
 /* Main styles
 --------------------------------------------------------------------------- */
 
-.link,body{position:relative;font-family:'Cabin', sans-serif;}
+.link,body{position:relative;font-family:'Cabin', sans-serif;overflow-x: hidden;}
 .header .nav-item-child,.link,a,body,em,h1,h2,h3,h4,h5,h6,li,li a,p,span{font-family:'Cabin', sans-serif;}
 body,html,html a{-webkit-font-smoothing:antialiased;}
 .btn-theme,
@@ -206,6 +206,7 @@ hr.vertical {
 .color-base{color:#17bed2!important}
 .color-pink{color: #F300B2;}
 .color-white{color:#fff!important}
+.color-skyblue{color: #1ab6ff;}
 .color-heading{color:#515769!important}
 .color-subtitle{color:#a6a7aa!important}
 .color-link{color:#81848f!important}
@@ -501,6 +502,7 @@ hr.vertical {
 		margin-top: 40px;
 	}
 	.margin-b-41 {
+		margin-top: 40px;
 		height: 100px;
 		background-repeat: no-repeat;
 		text-align: center;
