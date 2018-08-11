@@ -262,7 +262,7 @@ hr.vertical {
 }
 .img-half-right{
 	float: right;
-	margin-top: -845px;
+	margin-top: -965px;
 	margin-right: -110px;
 	width: 700px;
 	opacity: 0.7;
@@ -456,7 +456,7 @@ hr.vertical {
 		text-align: center;
 	}
 	.img-half-right {
-		margin-top: 520px;
+		margin-top: 920px;
 		opacity: 0.7;
 	}
 	.margin-b-60 {
@@ -486,7 +486,7 @@ hr.vertical {
 	}
 	.img-half-right{
 		float: right;
-		margin-top: 1150px;
+		margin-top: 1450px;
 		margin-bottom: -240px;
 		margin-right: 30px;
 		width: 100%;
